@@ -1,1 +1,107 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #fe9801;
+    color: #fff;
+    text-align: center;
+}
+.header{
+    background-color: #000;
+}
+.logo {
+    width: 5%;
+    margin-right: 99px;
+    margin-left: 67px;
+}
+.navbar-collapse {
+    margin-left: 46%;
+}
+.bg-dark {
+    background-color: #000!important;
+}
+.nav{
+    padding: 30px;
+}
+a {
+    color: #c1bdbd;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-link:hover {
+    display: inline-block;
+    color: #f7c924 !important;    
+}
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-text {
+    margin-right: 50px;
+    padding-bottom: 0px;
+}
+  .container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .heading {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+  }
+  .input_area {
+    background-color: #f5f5c6;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
+  .btn-read{
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 16px;
+    margin-top: 30px;
+    text-transform: uppercase;
+  }
+  .text{
+      font-size: 25px;
+      color: aqua;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .quote {
+    background-color: #ccda46;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+  }
+  .header_text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .timer{
+  background-color: #ccda46;
+  height: 42px;
+  width: 160px;
+  margin: 8px;
+  padding: 10px;
+  border-radius: 20%;
+  box-shadow: black 5px 8px 5px;
+}
+.highlightText {
+  background: green;
+}
+.highlightWrong {
+  background: red;
+}

@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="heading">
+        Simple Speed Typing
+      </div>
+      <div class="timer">
+        <div class="header_text">{{timeLeft}} Seconds Left.... </div>
+        <!-- <div class="curr_time">Seconds Left....</div> -->
+      </div>
+      <!-- <p>{{timeLeft}} Seconds Left....</p>  -->
+      <!-- <div class="quote">
+        <p #para id="para_quote"  [innerHTML]="highlight()"></p>
+      </div>
+    <textarea rows="4" cols="50" placeholder="Describe yourself here..." [(ngModel)]="query" class="input_area" #text id="text_area" (keydown)="wordCounter($event)"
+    (click)="typeText()" ></textarea> -->
+   
+
+      <div class="quote">
+        <p #para id="para_quote"  [innerHTML]="highlight()"></p>
+      </div>
+    <textarea rows="4" cols="50" placeholder="Describe yourself here..." [(ngModel)]="query" class="input_area" #text id="text_area" (keydown)="wordCounter($event)"
+    (click)="typeText()" ></textarea>
+    <div>Words:<span id="wordCount">{{ words }}</span></div>
+    <button class="button">
+      Restart
+    </button>
+    
+   </div>
